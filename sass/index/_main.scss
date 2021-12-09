@@ -1,0 +1,66 @@
+body {
+   min-height: 100vh;
+   background: radial-gradient(134.34% 134.34% at 50.66% 12.11%, #1F3757 0%, #131537 100%);
+}
+
+.main {
+   padding-top: 40px;
+
+   &__titles {
+      padding: 30px;
+      margin: 0 auto !important;
+      margin-bottom: 70px !important;
+      border-radius: 15px;
+      border: 3px solid #ffffff4a;
+   }
+
+   .title {
+      margin: 0;
+   }
+
+   &__div {
+      padding: 20px 50px;
+      border-radius: 15px;
+      background: #fff;
+
+      .score {
+         position: relative;
+         left: 4px;
+         display: block;
+         font-weight: 700;
+         color: #2A45C2;
+      }
+   
+      .num {
+         font-weight: 700;
+         font-size: 64px;
+         color: #565468;
+      }
+   }
+
+   .game {
+      margin: 0 auto !important;
+
+      &__win {
+         
+      }
+
+      &__choose {
+         &-img {
+            cursor: pointer;
+         }
+      }
+
+      .txts {
+         padding: 0 80px;
+         margin: 0 auto !important;
+         margin-bottom: 40px !important;
+   
+         &__txt {
+            font-weight: 700;
+            font-size: 24px;
+            letter-spacing: 3px;
+         }
+      }
+   }
+}
