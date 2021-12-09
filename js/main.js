@@ -186,11 +186,3 @@ elImg.forEach(item => {
 
 
 
-
-
-
-
-
-
-
-
