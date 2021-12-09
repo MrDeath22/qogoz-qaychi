@@ -456,6 +456,12 @@ body {
   cursor: pointer;
 }
 
+.main .game__wdl {
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
 .main .game .txts {
   padding: 0 80px;
   margin: 0 auto !important;
