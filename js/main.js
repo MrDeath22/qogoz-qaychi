@@ -33,7 +33,7 @@ elImg.forEach(item => {
                </div>
                <span class="game__wdl">Win !</span>
                <div>
-               <img class="game__img" src="http://127.0.0.1:5500/img/${bot}.svg" alt="qaychi">
+               <img class="game__img" src="	https://qogoz-byabdusamad.netlify.app/img/${bot}.svg" alt="qaychi">
                </div>
             </div>
             </div>`;
