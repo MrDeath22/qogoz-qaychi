@@ -21,6 +21,22 @@ elImg.forEach(item => {
       let arr = ['qaychi', 'qudu', 'qogoz'];
       let bot = arr[Math.floor(Math.random() * 3)];
       console.log(bot);
+
+      elGameDiv.innerHTML = `<div class="game__win">
+            <div class="main__txts txts row between">
+               <span class="txts__txt">YOU PICKED</span>
+               <span class="txts__txt">THE HOUSE PICKED</span>
+            </div>
+            <div class="game__imgs row between">
+               <div>
+                  <img class="game__img" src="${imgArr[2].img}" alt="qaychi">
+               </div>
+               <span class="game__wdl">Win !</span>
+               <div>
+               <img class="game__img" src="http://127.0.0.1:5500/img/${bot}.svg" alt="qaychi">
+               </div>
+            </div>
+            </div>`;
       
       if (e.target.src == imgArr[0].img) {
 
